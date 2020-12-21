@@ -78,14 +78,6 @@ python export_gt_depth.py --data_path ./kitti_RAW
 
 assuming that you have placed the KITTI RAW dataset in the default location of `./kitti_data`.
 
-If you want to generate ground truth map, please run:
-
-```shell
-python export_gt_depth.py --data_path ./kitti_RAW --split eigen	
-```
-
-We also provide ground truth value in `splits/eigen/gt_depths.npz`.
-
 For HR-Depth:
 
 ```shell
