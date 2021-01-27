@@ -12,6 +12,11 @@ This paper has been accepted by AAAI 2021.
 
 **Note:** We temporarily release the evaluation version and some pretrained models of our paper. The training codes are modified according to [Monodepth2](https://github.com/nianticlabs/monodepth2), and we will release them soon. 
 
+# Update
+**2021.1.27**
+1. The training code will be released around the beginning of the March.
+2. For re-implementing HR-Depth, you can clone [Monodepth2](https://github.com/nianticlabs/monodepth2) and simply replace the `DepthDecoder` with `HRDepthDecoder`. Our parameter settings are exactly the same as Monodepth2. 
+3. In our paper, we wrote the initial learning rate wrong. It should be **1e-4**, not **1e-3**. We will fix this mistake in the final version. Thanks for someone pointing out our problem.
 # Quantitative Results
 
 ## HR-Depth Results
